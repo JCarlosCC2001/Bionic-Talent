@@ -1,0 +1,102 @@
+/* Variables de colores */
+:root {
+    --red: #ab3c3c;
+    --dark: #314b57;
+    --light: #ffffff;
+}
+
+/* Estilos para encabezados */
+h2, h3, h4, h5 {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 50px;
+    color: var(--red);
+}
+
+h3 {
+    font-size: 38px;
+    color: var(--red);
+}
+
+h4 {
+    font-size: 24px;
+    color: var(--light);
+}
+
+h5 {
+    font-size: 18px;
+    color: var(--light);
+    text-align: center;
+}
+
+/* Estilos para párrafos y enlaces */
+p, a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: var(--dark);
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none;
+    color: var(--red);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 36px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    h4 {
+        font-size: 24px;
+    }
+    
+    h5 {
+        font-size: 16px;
+    }
+
+    p, a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 28px;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
+    
+    h5 {
+        font-size: 14px;
+    }
+
+    p, a {
+        font-size: 12px;
+    }
+}
